@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './Logo_Big.gif';
+
 
 const TopNavBar = (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#"><img src={logo} alt="iList Realty" height="75"></img></a>
+            <a className="navbar-brand" href="#"><img src={props.logo} alt="iList Realty" height="75"></img></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" 
                     data-target="#topNavBar" aria-controls="topNavBar" 
                     aria-expanded="false" aria-label="Toggle navigation">
