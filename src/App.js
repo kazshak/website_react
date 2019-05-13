@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
 import logo from './Logo_Big.gif';
 import TopNavBar from './components/TopNavBar';
@@ -13,7 +14,10 @@ function App() {
           <TopNavBar logo={logo} />
           <Jumbotron />
           <MiddleNavBar />
-          <MainPage logo={logo} />
+          <Route exact 
+            path="/" 
+            render={() => <MainPage logo={logo} />} />
+          
         </div>
     </div>
   );

@@ -18,18 +18,21 @@ const InfoCard = (props) => {
     } else if (props.contents.images) {
         body =
             <>
-               {props.contents.imageList.map(item => {
-                   return (
-                        <a className="col-sm-6 p-0" href={item.link} target="_blank" rel="noopener noreferrer">
-                            <img className="img-fluid p-2" src={item.image} width="125" alt="iList Realty" />
-                        </a>
-                   );
-                })}
+                <div className="row">
+                {props.contents.imageList.map(item => {
+                    return (
+                            <a className="col-sm-6 p-0 mt-auto mb-auto" href={item.link} target="_blank" rel="noopener noreferrer">
+                                <img className="img-fluid p-2" src={item.image}  alt="iList Realty" />
+                            </a>
+                    );
+                    })}
+                </div>
             </>
-    };
-
+    }
+    
     return (
-        <div className="card mr-0 ml-2 mt-3 p-0" style={{width: "20rem"}}>
+        // mr-0 ml-2 mt-3 p-0
+        <div className="col-lg-6 card pr-1 pl-1 mt-3" style={{borderStyle: "none"}}>
             <div className="card-header text-center bg-primary pt-2" style={{height: "3rem"}}>
                 <h6><strong>{props.header}</strong></h6>
             </div>

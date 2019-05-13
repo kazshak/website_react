@@ -1,10 +1,12 @@
 import React from 'react';
-
+import { NavLink, Link } from 'react-router-dom';
 
 const TopNavBar = (props) => {
+    const activeStyle = { color: "white" };
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#"><img src={props.logo} alt="iList Realty" height="75"></img></a>
+            <Link to="/" className="navbar-brand"><img src={props.logo} alt="iList Realty" height="75"></img></Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" 
                     data-target="#topNavBar" aria-controls="topNavBar" 
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -14,19 +16,19 @@ const TopNavBar = (props) => {
             <div className="collapse navbar-collapse nav-pills" id="topNavBar">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home</a>
+                        <NavLink to="/" className="nav-link" activeStyle={activeStyle} exact>Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">FAQ</a>
+                        <NavLink to="/faq" className="nav-link" activeStyle={activeStyle}>FAQ</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <NavLink to="/about" className="nav-link" activeStyle={activeStyle}>About</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Pricing Options</a>
+                        <NavLink to="/pricing" className="nav-link" activeStyle={activeStyle}>Pricing Options</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Featured Listings</a>
+                        <NavLink to="/featured" className="nav-link" activeStyle={activeStyle}>Featured Listings</NavLink>
                     </li>
                 </ul>
             </div>
