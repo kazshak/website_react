@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/oldSiteReference
 /.pnp
 .pnp.js
 

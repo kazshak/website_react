@@ -1,6 +1,6 @@
 import React from 'react';
 import BodySection from './BodySection';
-import RightSideBar from '../SideBar';
+import RightSideBar from '../common/SideBar';
 
 const MainPage = (props) => {
     return (

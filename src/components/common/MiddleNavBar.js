@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink, Link } from 'react-router-dom';
+
 import './middleNavBar.css';
 
 const MiddleNavBar = (props) => {
@@ -17,10 +19,10 @@ const MiddleNavBar = (props) => {
                         <button className="btn btn-primary dropdown-toggle mr-2" type="button" id="selling" 
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selling A House</button>
                         <div className="dropdown-menu bg-light" aria-labelledby="selling">
-                            <a className="dropdown-item" href="#">Why choose us?</a>
-                            <a className="dropdown-item" href="#">Pricing Options</a>
+                            <NavLink to="/about" className="dropdown-item">Why choose us?</NavLink>
+                            <NavLink to="/pricing" className="dropdown-item">Pricing Options</NavLink>
                             <a className="dropdown-item" href="#">What's the value of your home?</a>
-                            <a className="dropdown-item" href="#">Preparing to sell</a>
+                            <NavLink to="/prepareToSell" className="dropdown-item">Preparing to sell</NavLink>
                             <a className="dropdown-item" href="#">Contact Us</a>
                         </div>
                     </div>
@@ -28,9 +30,9 @@ const MiddleNavBar = (props) => {
                         <button className="btn btn-primary dropdown-toggle mr-2" type="button" id="buying" 
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Buying A House</button>
                         <div className="dropdown-menu bg-light" aria-labelledby="buying">
-                            <a className="dropdown-item" href="#">Why choose us?</a>
-                            <a className="dropdown-item" href="#">Pricing Options</a>
-                            <a className="dropdown-item" href="#">How to buy a house</a>
+                            <NavLink to="/about" className="dropdown-item">Why choose us?</NavLink>
+                            <NavLink to="/pricing" className="dropdown-item">Pricing Options</NavLink>
+                            <NavLink to="/howToBuy" className="dropdown-item">How to buy a house</NavLink>
                             <a className="dropdown-item" href="#">Contact Us</a>
                         </div>
                     </div>
@@ -43,8 +45,9 @@ const MiddleNavBar = (props) => {
                         </div>
                     </div>
                     
-                    <button className="btn btn-primary mr-2" type="button" href="#">FAQ</button>
-                    
+                    <NavLink to="/faq">
+                        <button className="btn btn-primary mr-2" type="button" href="#">FAQ</button>
+                    </NavLink>
                     
                     <button className="btn btn-primary" type="button" href="#">Contact Us</button>
                     
