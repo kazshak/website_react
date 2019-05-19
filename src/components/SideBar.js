@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const RightSideBar = (props) => {
+const SideBar = (props) => {
     return (
         <div className="col-lg-3 bg-white p-0 pr-2 pt-3">
             <img className="img-fluid ml-auto mr-auto" src={props.logo} alt="iList Realty"  />
@@ -17,4 +17,4 @@ const RightSideBar = (props) => {
     );
 };
 
-export default RightSideBar;
+export default SideBar;

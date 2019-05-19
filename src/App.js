@@ -6,6 +6,7 @@ import TopNavBar from './components/TopNavBar';
 import Jumbotron from './components/Jumbotron';
 import MiddleNavBar from './components/MiddleNavBar';
 import MainPage from './components/main_page/MainPage';
+import FaqPage from './components/FaqPage/FaqPage';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           <Route exact 
             path="/" 
             render={() => <MainPage logo={logo} />} />
+          <Route exact
+            path="/faq"
+            render={() => <FaqPage logo={logo} />} />
           
         </div>
     </div>

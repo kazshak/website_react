@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './InfoCard.css';
 
 const InfoCard = (props) => {
+
     let body;
 
     if (props.contents.bullets) {
@@ -10,8 +11,8 @@ const InfoCard = (props) => {
             <>
                 <h5 className="card-title"><strong>{props.contents.title}</strong></h5>
                     <ul>
-                        {props.contents.bulletText.map(item => {
-                        return <li >{item}</li>;
+                        {props.contents.bulletText.map((item, index) => {
+                        return <li key={index}>{item}</li>;
                     })}
                 </ul>
             </>
@@ -19,17 +20,19 @@ const InfoCard = (props) => {
         body =
             <>
                 <div className="row">
-                {props.contents.imageList.map(item => {
+                {props.contents.imageList.map((item, index) => {
                     return (
-                            <a className="col-sm-6 p-0 mt-auto mb-auto" href={item.link} target="_blank" rel="noopener noreferrer">
+                            <a key={index} className="col-sm-6 p-0 mt-auto mb-auto" href={item.link} rel="noopener" target="_blank" >
                                 <img className="img-fluid p-2" src={item.image}  alt="iList Realty" />
                             </a>
                     );
                     })}
                 </div>
             </>
-    }
-    
+    } else {body = props.contents.scrpt}
+
+    console.log(body);
+
     return (
         // mr-0 ml-2 mt-3 p-0
         <div className="col-lg-6 card pr-1 pl-1 mt-3" style={{borderStyle: "none"}}>

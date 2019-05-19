@@ -1,13 +1,13 @@
 import React from 'react';
-import BodySection from './BodySection';
-import RightSideBar from '../SideBar';
+import FaqSection from './FaqSection';
+import LeftSideBar from '../SideBar';
 
 const MainPage = (props) => {
     return (
         <div className="container-fluid row p-0 m-0">
-            <BodySection />
-            <RightSideBar logo={props.logo} />
-
+            <LeftSideBar logo={props.logo} />
+            <FaqSection />
+           
         </div>
     );
 };

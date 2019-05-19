@@ -4,10 +4,12 @@ import zillowlogo from './zillowlogo.png';
 import realtorlogo from './realtorcom_alt.jpg';
 import trulialogo from './trulialogo.png';
 import realtracslogo from './realtracs_logo.jpg';
+import MortgageRate from './MortgageRate';
 
 
 const BodySection = (props) => {
     let fullService = {
+        id: "",
         bullets: true,
         title: "No up-front fee",
         bulletText: ["1.5% of sales price at closing", "Comprehensive pricing analysis",
@@ -21,6 +23,7 @@ const BodySection = (props) => {
     };
 
     let flatFee = {
+        id: "",
         bullets: true,
         title: "$499 Up-Front Fee Only",
         bulletText: ["List your property for up to 6 months", "30 color photos (or max allowed by MLS)", "iList Realty For Sale sign",
@@ -33,6 +36,7 @@ const BodySection = (props) => {
     };
 
     let everywhere = {
+        id: "",
         bullets: false,
         title: "",
         bulletText: [],
@@ -58,6 +62,7 @@ const BodySection = (props) => {
     };
 
     let mortRates = {
+        id: "mlcalcRatesWidgetHolderXX",
         bullets: false,
         title: "",
         bulletText: [],
@@ -66,8 +71,10 @@ const BodySection = (props) => {
             image: "",
             link: ""
         }],
-        scrpt: ""
+        scrpt: <MortgageRate />
     };
+
+    // id='mlcalcRatesWidgetHolderXX'
 
     return (
         <div className="col-lg-9 bg-white">
@@ -126,7 +133,7 @@ const BodySection = (props) => {
                 </ul>
                 <p >Led by Brenda Shakir's vision to provide Nashville and  Middle Tennessee residents greater control over the process of buying and  selling their home, we have developed pricing options with different levels  of broker interaction.  We are dedicated  to Nashville, Brentwood, Franklin and the Middle Tennessee region.   Nashville is one of the fastest growing cities, and the  local real estate market continues to experience substantial activity.  Major corporations find the benefits  of doing business and living in Middle Tennessee and Nashville very attractive.  We agree, and are very excited about the  opportunity to provide our clients with the best home selling experience  possible.</p>
                 <p align="left" >&nbsp;</p>
-                <p align="center"><a href="PricingOptions.html"><img src="images/pricingbutton_up.gif" alt="Nashville Real Estate Flat Fee" name="PricingButton" width="100" height="40" border="0" class="text" id="PricingButton" /></a></p>
+                <p align="center"><a href="PricingOptions.html"><img src="images/pricingbutton_up.gif" alt="Nashville Real Estate Flat Fee" name="PricingButton" width="100" height="40" border="0" className="text" id="PricingButton" /></a></p>
                 <span><p><img src="counter2042006211922/counter.php?var=803679037" border="0" alt="" /></p>
                     <p>&nbsp;</p>
                 </span>
