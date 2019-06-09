@@ -20,14 +20,14 @@ const PricingPage = props => {
               <a href="searchframeset.html">RealTracs MLS for Buyers</a>
             </li>
             <li>
-              <a href="http://www.realtor.com" target="_blank">
+              <a href="http://www.realtor.com" target="_blank" rel="noopener noreferrer">
                 Realtor.com
               </a>
             </li>
             <li>
               <a
                 href="http://www.homefinder.com/tennessean/tenness/index_map.jhtml"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 Tennessean.com
               </a>
@@ -37,7 +37,7 @@ const PricingPage = props => {
           <li>iList Realty FOR SALE sign</li>
           <li>Option to lease lock box</li>
           <li>
-            <a href="http://homes.realtor.com/prop/1087191269" target="_blank">
+            <a href="http://homes.realtor.com/prop/1087191269" target="_blank" rel="noopener noreferrer">
               Click here to see a sample iList listing on Realtor.com
             </a>
           </li>
@@ -61,14 +61,14 @@ const PricingPage = props => {
               <a href="searchframeset.html">RealTracs MLS for Buyers</a>
             </li>
             <li>
-              <a href="http://www.realtor.com/" target="_blank">
+              <a href="http://www.realtor.com/" target="_blank" rel="noopener noreferrer">
                 Realtor.com
               </a>
             </li>
             <li>
               <a
                 href="http://www.homefinder.com/tennessean/tenness/index_map.jhtml"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 Tennessean.com
               </a>{" "}
@@ -86,7 +86,7 @@ const PricingPage = props => {
           <li>iList Realty FOR SALE Sign</li>
           <li>Provide Disclosure and Contract Forms</li>
           <li>
-            <a href="http://homes.realtor.com/prop/1087191269" target="_blank">
+            <a href="http://homes.realtor.com/prop/1087191269" target="_blank" rel="noopener noreferrer">
               Click here to see a sample iList listing on Realtor.com
             </a>
           </li>
@@ -106,14 +106,14 @@ const PricingPage = props => {
               <a href="searchframeset.html">RealTracs for Buyers</a>
             </li>
             <li>
-              <a href="http://www.realtor.com/" target="_blank">
+              <a href="http://www.realtor.com/" target="_blank" rel="noopener noreferrer">
                 Realtor.com
               </a>
             </li>
             <li>
               <a
                 href="http://www.homefinder.com/tennessean/tenness/index_map.jhtml"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 Tennessean.com
               </a>{" "}
@@ -133,7 +133,7 @@ const PricingPage = props => {
           <li>Provide disclosure forms</li>
           <li>Negotiate Contracts</li>
           <li>
-            <a href="http://homes.realtor.com/prop/1087191269" target="_blank">
+            <a href="http://homes.realtor.com/prop/1087191269" target="_blank" rel="noopener noreferrer">
               Click here to see a sample iList listing on Realtor.com
             </a>
           </li>

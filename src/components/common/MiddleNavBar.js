@@ -23,7 +23,7 @@ const MiddleNavBar = (props) => {
                             <NavLink to="/pricing" className="dropdown-item">Pricing Options</NavLink>
                             <a className="dropdown-item" href="#">What's the value of your home?</a>
                             <NavLink to="/prepareToSell" className="dropdown-item">Preparing to sell</NavLink>
-                            <a className="dropdown-item" href="#">Contact Us</a>
+                            <NavLink to="/contactUs" className="dropdown-item">Contact Us</NavLink>
                         </div>
                     </div>
                     <div className="btn-group">
@@ -33,7 +33,7 @@ const MiddleNavBar = (props) => {
                             <NavLink to="/about" className="dropdown-item">Why choose us?</NavLink>
                             <NavLink to="/pricing" className="dropdown-item">Pricing Options</NavLink>
                             <NavLink to="/howToBuy" className="dropdown-item">How to buy a house</NavLink>
-                            <a className="dropdown-item" href="#">Contact Us</a>
+                            <NavLink to="/contactUs" className="dropdown-item">Contact Us</NavLink>
                         </div>
                     </div>
                     <div className="btn-group">
@@ -49,7 +49,9 @@ const MiddleNavBar = (props) => {
                         <button className="btn btn-primary mr-2" type="button" href="#">FAQ</button>
                     </NavLink>
                     
-                    <button className="btn btn-primary" type="button" href="#">Contact Us</button>
+                    <NavLink to="/contactUs">
+                        <button className="btn btn-primary" type="button" href="#">Contact Us</button>
+                    </NavLink>
                     
                 </div>
             </div>

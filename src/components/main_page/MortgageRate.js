@@ -1,35 +1,43 @@
 import React from 'react';
-import Script from 'react-load-script';
-import jQuery from 'jquery';
 
 const MortgageRate = (props) => {
     
-    const handleCreate = () => {
-        
-        console.log('Created');
-    };
-
-    const handleError = () => {
-        
-        console.log('Error');
-    };
-
-    const handleLoad = () => {
-        
-        console.log('Loaded');
-    };
-
-    const mlcalc_jquery_noconflict = 1;
-
+    let rates = require("../../rates.json");
+    
     return(
-        <div 
-            style={{fontWeight: "normal", fontSize: "9px", fontFamily: "Tahoma", padding: "0", margin: "0", border: "0", background: "transparent",
-                    color: "#E5E5E5", width: "300px", textAlign: "right", paddingRight: "10px"}} 
-            id='mlcalcRatesWidgetHolderXX'>
-            
-            <Script url="https://www.mlcalc.com/mortgage-rates/widget-wide.js" 
-                    onCreate={handleCreate} onError={handleError} onLoad={handleLoad} />
-            Powered by <a href='https://www.mlcalc.com/mortgage-rates/' style={{color: "#E5E5E5", textDecoration: "none"}}>Mortgage Rates</a>
+        <div className="table-responsive" style={{fontFamily: "Tahoma, sans-serif"}}>
+            <table className="table table-hover mb-1">
+                <thead>
+                    <tr className="table-secondary ">
+                        <th scope="col" colSpan="2" style={{textAlign: "center", fontSize: "14px", paddingTop: "0", paddingBottom: "0"}}>
+                            US Average Mortgage Rates
+                        </th>
+                    </tr>
+                    <tr className="table-secondary ">
+                        <th scope="col" colSpan="2" style={{textAlign: "center", fontSize: "10px", paddingTop: "0", paddingBottom: "0"}}>
+                            <em>as of: {rates.MORTGAGE30US.date}</em>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" style={{textAlign: "center"}}>30 Year Fixed</th>
+                        <td style={{textAlign: "left"}}>{rates.MORTGAGE30US.rate}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style={{textAlign: "center"}}>15 Year Fixed</th>
+                        <td style={{textAlign: "left"}}>{rates.MORTGAGE15US.rate}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style={{textAlign: "center"}}>5 / 1 ARM</th>
+                        <td style={{textAlign: "left"}}>{rates.MORTGAGE5US.rate}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p className="p-0 m-0" style={{fontSize: "6px"}}>
+                Data is provided "as is," by Freddie Mac® with no warranties of any kind, express or implied<br />
+                Copyright, 2016, Freddie Mac. Reprinted with permission.
+            </p>
             
         </div>
     );

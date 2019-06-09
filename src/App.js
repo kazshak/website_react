@@ -11,6 +11,7 @@ import AboutPage from './components/about_page/AboutPage';
 import PricingPage from './components/pricing_page/PricingPage';
 import PrepareToSellPage from './components/prepToSellPage/PrepareToSellPage';
 import HowToBuyPage from './components/how_to_buy_page/HowToBuyPage';
+import ContactPage from './components/contact_us_page/ContactPage';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           <Route exact
             path="/howToBuy"
             render={() => <HowToBuyPage logo={logo} />} />
+          <Route exact
+            path="/contactUs"
+            render={() => <ContactPage logo={logo} />} />
 
         </div>
     </div>

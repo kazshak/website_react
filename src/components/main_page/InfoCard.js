@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './InfoCard.css';
 
@@ -22,7 +22,7 @@ const InfoCard = (props) => {
                 <div className="row">
                 {props.contents.imageList.map((item, index) => {
                     return (
-                            <a key={index} className="col-sm-6 p-0 mt-auto mb-auto" href={item.link} rel="noopener" target="_blank" >
+                            <a key={index} className="col-sm-6 p-0 mt-auto mb-auto" href={item.link} target="_blank" rel="noopener noreferrer">
                                 <img className="img-fluid p-2" src={item.image}  alt="iList Realty" />
                             </a>
                     );
