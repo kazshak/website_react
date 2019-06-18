@@ -1,8 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const MortgageRate = (props) => {
+
+    const [rates, setRates] = useState({
+        "MORTGAGE5US": {
+            "date": "2019-06-13", 
+            "rate": "3.51"
+        },
+        "dateRequested": "2019-06-17", 
+        "MORTGAGE30US": {
+            "date": "2019-06-13", 
+            "rate": "3.82"
+        }, 
+        "MORTGAGE15US": {
+            "date": "2019-06-13", 
+            "rate": "3.26"
+        }
+    })
     
-    let rates = require("../../rates.json");
+    useEffect(() => {
+        const getRates = async () => {
+            const response = await fetch('rates.json');
+            const values = await response.json();
+            setRates(values);
+        };
+
+        getRates();
+    }, [rates])
     
     return(
         <div className="table-responsive" style={{fontFamily: "Tahoma, sans-serif"}}>
