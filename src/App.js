@@ -5,6 +5,7 @@ import logo from './Logo_Big.gif';
 import TopNavBar from './components/common/TopNavBar';
 import Jumbotron from './components/common/Jumbotron';
 import MiddleNavBar from './components/common/MiddleNavBar';
+import Footer from './components/common/Footer';
 import MainPage from './components/main_page/MainPage';
 import FaqPage from './components/faq_page/FaqPage';
 import AboutPage from './components/about_page/AboutPage';
@@ -15,7 +16,7 @@ import ContactPage from './components/contact_us_page/ContactPage';
 
 function App() {
   return (
-    <div className="container-fluid bg-secondary">
+    <div className="container-fluid bg-secondary p-0">
         <div className="col-lg-8 offset-lg-2 col-fluid">
           <TopNavBar logo={logo} />
           <Jumbotron />
@@ -41,7 +42,9 @@ function App() {
           <Route exact
             path="/contactUs"
             render={() => <ContactPage logo={logo} />} />
-
+        </div>
+        <div className="col-lg-12 col-fluid p-5 bg-dark">
+          <Footer logo={logo} />
         </div>
     </div>
   );

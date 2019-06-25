@@ -1,0 +1,19 @@
+.mortgageCalc {
+    width: 150px;
+    left: 25px;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+    box-shadow: 5px 10px 10px grey;
+}
+
+.form-group {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.form-control {
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}

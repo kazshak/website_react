@@ -1,5 +1,5 @@
 import React from 'react';
-
+import MortgageCalc from './MortgageCalc';
 
 const SideBar = (props) => {
     return (
@@ -13,6 +13,7 @@ const SideBar = (props) => {
                 615.827.0070 fax<br />
                 <a href="mailto:bshakir@ilistrealty.net">bshakir@ilistrealty.net</a>
             </p>
+            <MortgageCalc />
         </div>
     );
 };
