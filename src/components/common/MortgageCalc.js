@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MortgageCalcModal from './MortgageCalcModal';
 
 import './MortgageCalc.css';
 
@@ -6,22 +7,34 @@ const MortgageCalc = (props) => {
 
     const [params, setParams] = useState({
         "purcasePrice": 500000,
-        "downPayment": 0.20,
+        "downPayment": 20,
         "term": 30,
-        "intRate": 0.045,
+        "intRate": 4.5,
         "propertyTax": 3300,
         "propertyIns": 2500,
         "firstPayMonth": 1,
-        "firstPayYear": 2020
+        "firstPayYear": 2020,
+        "monthlyPandi": 2026.74
     });
+
+    const calcPayment = (values) => {
+        let periodicInterest = (values.intRate / 100) / 12;
+        let nPeriods = values.term * 12;
+        let loanAmt = values.purcasePrice * (1 - values.downPayment / 100);
+        let annuityFactor = periodicInterest / (1 - Math.pow(1 + periodicInterest,-nPeriods));
+        return(Math.round(loanAmt * annuityFactor * 100) / 100);
+    };
 
     const handleChange = (event) => {
         let temp = params;
-        temp[event.target.id] = event.target.value;
+        temp[event.target.id] = parseFloat(event.target.value);
         setParams(temp);
     };
 
     const handleSubmit = (event) => {
+        let temp = params;
+        temp['monthlyPandi'] = calcPayment(temp);
+        setParams(temp);
         console.log(params);
         event.preventDefault();
     }
@@ -48,7 +61,7 @@ const MortgageCalc = (props) => {
                 </div>
                 <div className="form-group row">
                     <label className="col-form-label">Interest rate (%): </label>
-                    <input type="number" className="form-control" id="intRate" placeholder={params.intRate}
+                    <input type="number" step="0.01" className="form-control" id="intRate" placeholder={params.intRate}
                             onChange={handleChange} />
                 </div>
                 <div className="form-group row">
@@ -81,8 +94,13 @@ const MortgageCalc = (props) => {
                     <input type="number" className="form-control" id="firstPayYear" placeholder={params.firstPayYear}
                             onChange={handleChange} />
                 </div>
-                <button type="submit" className="btn btn-primary mb-2 ml-4">Calculate</button>
+                <button type="submit" className="btn btn-primary mb-2 ml-4" data-toggle="modal" data-target="#myModal">Calculate</button>
+                
             </form>
+            <p> {params.monthlyPandi} </p>
+            <div className="modal" id="myModal">
+                <MortgageCalcModal pmt={params.monthlyPandi} />
+            </div>
         </div>
     );
 
