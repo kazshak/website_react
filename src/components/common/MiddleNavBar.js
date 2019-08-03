@@ -41,7 +41,7 @@ const MiddleNavBar = (props) => {
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search Properties</button>
                         <div className="dropdown-menu bg-light" aria-labelledby="search">
                             <a className="dropdown-item" href="#">Featured Listings</a>
-                            <a className="dropdown-item" href="#">Search The MLS</a>
+                            <NavLink to="/searchTheMls" className="dropdown-item">Search The MLS</NavLink>
                         </div>
                     </div>
                     

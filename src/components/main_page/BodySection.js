@@ -18,8 +18,7 @@ const BodySection = (props) => {
         imageList: [{
             image: "",
             link: ""
-        }],
-        scrpt: "<div style='font-weight:normal;font-size:9px;font-family:Tahoma;padding:0;margin:0;border:0;background:transparent;color:#E5E5E5;width:300px;text-align:right;padding-right:10px;' id='mlcalcRatesWidgetHolderXX'><script type='text/javascript' src='https://www.mlcalc.com/mortgage-rates/widget-wide.js'></script>Powered by <a href='https://www.mlcalc.com/mortgage-rates/' style='color:#E5E5E5;text-decoration:none'>Mortgage Rates</a></div>"
+        }]
     };
 
     let flatFee = {
@@ -62,7 +61,7 @@ const BodySection = (props) => {
     };
 
     let mortRates = {
-        id: "mlcalcRatesWidgetHolderXX",
+        id: "",
         bullets: false,
         title: "",
         bulletText: [],
@@ -73,8 +72,6 @@ const BodySection = (props) => {
         }],
         scrpt: <MortgageRate />
     };
-
-    // id='mlcalcRatesWidgetHolderXX'
 
     return (
         <div className="col-lg-9 bg-white">

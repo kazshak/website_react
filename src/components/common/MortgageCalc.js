@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import $ from "jquery";
+import Chart from './Chart';
 
 import "./MortgageCalc.css";
 
@@ -23,7 +24,7 @@ const MortgageCalc = props => {
     let loanAmt = values.purcasePrice * (1 - values.downPayment / 100);
     let annuityFactor =
       periodicInterest / (1 - Math.pow(1 + periodicInterest, -nPeriods));
-    return Math.round(loanAmt * annuityFactor * 100) / 100;
+    return Math.round(loanAmt * annuityFactor * 100 + 0.5) / 100;
   };
 
   const calcAmortization = payment => {
@@ -50,14 +51,14 @@ const MortgageCalc = props => {
 
         fv = pv * Math.pow(1 + periodicInterest, nPmts) - payment * ((Math.pow(1+periodicInterest, nPmts) - 1) / periodicInterest);
         fv = Math.round(fv * 100) / 100;
-        let prin = Math.round((pv - fv) * 100) / 100;
+        let prin = Math.round((pv - fv) * 100) / 100 + ((idx === (nYrs - 1)) ? fv : 0);
         let interest = payment * nPmts - prin;
-        pv = fv;
+        pv = pv - prin;
         return({'year': temp.firstPayYear + idx,
                 'prin': prin,
                 'interest': interest,
                 'taxAndIns': Math.round(((temp.propertyTax + temp.propertyIns) / 12 * nPmts) * 100) / 100,
-                'balance': fv});
+                'balance': pv});
       })
     );
   };
@@ -119,7 +120,7 @@ const MortgageCalc = props => {
           <label className="col-form-label">First payment date: </label>
           <select className="form-control" id="firstPayMonth" 
             onChange={handleChange}>
-            <option value="1" selected>Jan</option>
+            <option value="1" defaultValue>Jan</option>
             <option value="2">Feb</option>
             <option value="3">Mar</option>
             <option value="4">Apr</option>
@@ -141,7 +142,7 @@ const MortgageCalc = props => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h4 className="modal-title">Modal Heading</h4>
+              <h4 className="modal-title">Mortgage Calculation</h4>
               <button type="button" className="close" data-dismiss="modal">
                 &times;
               </button>
@@ -152,6 +153,20 @@ const MortgageCalc = props => {
                 style: "currency",
                 currency: "USD"
               })}
+              <br />
+              Taxes & Insurance:{" "}
+              {((params.propertyIns + params.propertyTax)/12).toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD"
+              })}
+              <br />
+              <hr />
+              Total Monthly Payment:{" "}
+              {(params.monthlyPandi + ((params.propertyIns + params.propertyTax)/12)).toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD"
+              })}
+              <Chart data={params.amortization} />
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-danger" data-dismiss="modal">Close</button>

@@ -13,6 +13,7 @@ import PricingPage from './components/pricing_page/PricingPage';
 import PrepareToSellPage from './components/prepToSellPage/PrepareToSellPage';
 import HowToBuyPage from './components/how_to_buy_page/HowToBuyPage';
 import ContactPage from './components/contact_us_page/ContactPage';
+import SearchTheMls from './components/search_mls_page/SearchTheMls';
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
           <Route exact
             path="/contactUs"
             render={() => <ContactPage logo={logo} />} />
+          <Route exact
+            path="/searchTheMls"
+            render={() => <SearchTheMls />} />
         </div>
         <div className="col-lg-12 col-fluid p-5 bg-dark">
           <Footer logo={logo} />
