@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FlexibleWidthXYPlot, XAxis, VerticalBarSeries, 
-            LineSeries, MarkSeries, Crosshair} from 'react-vis';
+            MarkSeries} from 'react-vis';
 
 import AnnualMortInfo from './AnnualMortInfo';
 

@@ -1,0 +1,57 @@
+{
+    "address":"120 TRAIL RIDGE DR",
+    "frontImage":"frontview.jpg",
+    "price":173949,
+    "sqft":1440,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2007-12-13",
+    "listDate":"2007-10-28",
+    "sold":true,
+    "salesPrice":173949,
+    "yearBuilt":2002,
+    "lotSize":0,
+    "flyer":"",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"BETTER THAN NEW~SHOWS LIKE A MODEL~NEW WOOD FLOORING ON LOWER LEVEL~FIREPLACE~UP-GRADED LIGHTING FIXTURES~SURROUND SOUND~REFRIGERATOR, STOVE &amp; WINDOW TREATMENTS REMAIN~COVERED FRONT PORCH~LEVEL LOT WITH FENCED BACKYARD. WALK TO COMMUNITY POOL &amp; CLUBHOUSE"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":""
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":""
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":""
+        },
+        {
+            "file":"frontview2.jpg",
+            "caption":"THIS HOME IS VERY CLEAN AND HAS BEEN VERY WELL CARED FOR."
+        },
+        {
+            "file":"kitchen2.jpg",
+            "caption":""
+        },
+        {
+            "file":"room1.jpg",
+            "caption":""
+        },
+        {
+            "file":"bath1.jpg",
+            "caption":""
+        },
+        {
+            "file":"bedroom1.jpg",
+            "caption":""
+        },
+        {
+            "file":"bedroom2.jpg",
+            "caption":""
+        }
+    ]
+  }

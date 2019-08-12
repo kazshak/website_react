@@ -1,0 +1,25 @@
+{
+    "address":"1453 ARDEE AVE",
+    "frontImage":"frontview.jpg",
+    "price":139950,
+    "sqft":1058,
+    "beds":2,
+    "baths":1,
+    "closedDate":"2008-09-23",
+    "listDate":"2008-08-21",
+    "sold":true,
+    "salesPrice":139000,
+    "yearBuilt":1952,
+    "lotSize":0.23,
+    "flyer":"1453ardee_buyer_full_report.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"SUPER RENOVATION! SPACIOUS & LIGHT! BRAND NEW HVAC, ROOF, WINDOWS, PLUMBING, ELECTRICAL& WATER HEATER!! GORGEOUS REFINISHED HARDWOODS! DEN W/FIREPLACE~BRAND NEW KITCHEN & BATH W/TILE! WONDERFUL FULLY FENCED YARD & CARPORT! YOU WILL LOVE THIS HOME!"
+        },
+        {
+            "file":"frontview2.jpg",
+            "caption":""
+        }
+    ]
+  }

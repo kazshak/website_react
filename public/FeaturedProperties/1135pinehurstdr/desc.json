@@ -1,0 +1,57 @@
+{
+    "address":"1135 PINEHURST DR",
+    "frontImage":"frontview.jpg",
+    "price":179800,
+    "sqft":1624,
+    "beds":3,
+    "baths":2,
+    "closedDate":"2007-10-25",
+    "listDate":"2007-09-09",
+    "sold":true,
+    "salesPrice":177000,
+    "yearBuilt":2001,
+    "lotSize":0,
+    "flyer":"",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"IMMACULATE HOME~ALL LIVING SPACE ON MAIN LEVEL~ LOCATED IN EAGLE CREEK SUBDIVISION~CONVENIENT LOCATION SPACIOUS GOURMET KITCHEN WITH ISLAND, PLANNING DESK AREA, BUILT IN PANTRY~LARGE FAMILY ROOM WITH TREY CEILING AND FIREPLACE~GREAT CURB APPEAL~BEAUTIFUL LANDSCAPING~COVERED FRONT PORCH~LARGE PATIO~HOME LIKE NEW"
+        },
+        {
+            "file":"frontporch.jpg",
+            "caption":"COVERED FRONT PORCH~GREAT CURB APPEAL~BEAUTIFULLY LANDSCAPED"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"SPACIOUS GOURMET KITCHEN WITH ISLAND, BUILT IN PANTRY"
+        },
+        {
+            "file":"planningdesk.jpg",
+            "caption":"PLANNING DESK IN KITCHEN"
+        },
+        {
+            "file":"breakfast.jpg",
+            "caption":"EATING SPACE IN KITCHEN"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"FAMILY ROOM INCLUDES TREY CEILING AND FIREPLACE WITH PLENTY OF SPACE TO ENTERTAIN"
+        },
+        {
+            "file":"bedroom2.jpg",
+            "caption":"EXTRA LARGE MASTER BEDROOM HAS ENOUGH SPACE FOR A SITTING AREA"
+        },
+        {
+            "file":"bedroom1.jpg",
+            "caption":"GUEST BEDROOM"
+        },
+        {
+            "file":"patio.jpg",
+            "caption":"REAR VIEW ON HOME WITH PATIO~GREAT LOCATION IN THE NEIGHBORHOOD"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"NEIGHBORHOOD IS LOCATED ON THE LONG HOLLOW GOLF COURSE"
+        }
+    ]
+  }

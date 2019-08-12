@@ -1,0 +1,57 @@
+{
+    "address":"692 CLEARVIEW RD",
+    "frontImage":"frontview.jpg",
+    "price":119500,
+    "sqft":1792,
+    "beds":3,
+    "baths":1.5,
+    "closedDate":"2009-03-26",
+    "listDate":"2009-03-03",
+    "sold":true,
+    "salesPrice":114500,
+    "yearBuilt":1905,
+    "lotSize":1.5,
+    "flyer":"692clearview_buyer_full_report.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"100 YR OLD COUNTRY RENOVATED HOME! ORIGINAL RED OAK & YELLOW POPLAR FLOORS~NEWER WINDOWS & GUTTERS~JACUZZI IN MASTER~NEW SUN PORCH~CONCRETE PATIO~LG COUNTRY KITCHEN WITH HUGE PANTRY! A WONDERFULLY PEACEFUL SETTING ONLY 4 MINS FROM THE INTERSTATE!"
+        },
+        {
+            "file":"porch.jpg",
+            "caption":"THIS SCREENED PORCH WAS ADDED IN 2006"
+        },
+        {
+            "file":"screenporch.jpg",
+            "caption":"LOOKING OUT ONTO THE WONDERFUL YARD!"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"PEACEFUL AND SERENE YET CLOSE TO THE INTERSTATE!"
+        },
+        {
+            "file":"bedroom.jpg",
+            "caption":"MASTER BEDROOM UPSTAIRS WITH JACUZZI TUB"
+        },
+        {
+            "file":"bathrub.jpg",
+            "caption":"RELAX!!"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"GET AWAY FROM IT ALL IN THIS WONDERFUL ROOM!"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"THIS KITCHEN EVOKES THE GOOD 'OL DAYS!"
+        },
+        {
+            "file":"fireplace1.jpg",
+            "caption":"ONE OF TWO FIREPLACES IN THE HOME"
+        },
+        {
+            "file":"fireplace2.jpg",
+            "caption":""
+        }
+    ]
+  }

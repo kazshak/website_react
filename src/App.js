@@ -14,6 +14,8 @@ import PrepareToSellPage from './components/prepToSellPage/PrepareToSellPage';
 import HowToBuyPage from './components/how_to_buy_page/HowToBuyPage';
 import ContactPage from './components/contact_us_page/ContactPage';
 import SearchTheMls from './components/search_mls_page/SearchTheMls';
+import HowMuchIsMyHomeWorth from './components/home_value_page/HomeValue';
+import FeaturedListings from './components/featured_listings_page/FeaturedListings';
 
 function App() {
   return (
@@ -46,6 +48,12 @@ function App() {
           <Route exact
             path="/searchTheMls"
             render={() => <SearchTheMls />} />
+          <Route exact
+            path="/HowMuchIsMyHomeWorth"
+            render={() => <HowMuchIsMyHomeWorth />} />
+          <Route exact
+            path="/featured"
+            render={() => <FeaturedListings />} />
         </div>
         <div className="col-lg-12 col-fluid p-5 bg-dark">
           <Footer logo={logo} />

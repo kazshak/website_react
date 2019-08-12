@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './middleNavBar.css';
 
@@ -21,7 +21,7 @@ const MiddleNavBar = (props) => {
                         <div className="dropdown-menu bg-light" aria-labelledby="selling">
                             <NavLink to="/about" className="dropdown-item">Why choose us?</NavLink>
                             <NavLink to="/pricing" className="dropdown-item">Pricing Options</NavLink>
-                            <a className="dropdown-item" href="#">What's the value of your home?</a>
+                            <NavLink to="/HowMuchIsMyHomeWorth" className="dropdown-item">What's the value of your home?</NavLink>
                             <NavLink to="/prepareToSell" className="dropdown-item">Preparing to sell</NavLink>
                             <NavLink to="/contactUs" className="dropdown-item">Contact Us</NavLink>
                         </div>
@@ -40,7 +40,7 @@ const MiddleNavBar = (props) => {
                         <button className="btn btn-primary dropdown-toggle mr-2" type="button" id="search" 
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search Properties</button>
                         <div className="dropdown-menu bg-light" aria-labelledby="search">
-                            <a className="dropdown-item" href="#">Featured Listings</a>
+                            <NavLink to="/featured" className="dropdown-item">Featured Listings</NavLink>
                             <NavLink to="/searchTheMls" className="dropdown-item">Search The MLS</NavLink>
                         </div>
                     </div>

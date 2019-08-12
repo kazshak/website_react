@@ -1,0 +1,57 @@
+{
+    "address":"1008 BROOKWOOD DR",
+    "frontImage":"frontview.jpg",
+    "price":233900,
+    "sqft":1900,
+    "beds":3,
+    "baths":2,
+    "closedDate":"2008-01-31",
+    "listDate":"2007-12-27",
+    "sold":true,
+    "salesPrice":233000,
+    "yearBuilt":1974,
+    "lotSize":0,
+    "flyer":"1008brookwooddrflyer.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"TOTALLY RENOVATED~ SPACIOUS OPEN LIVING AREAS~ CUSTOM CABINETRY~NEW WOOD & TILE FLOORING~ REDESIGNED MASTER SUITE~ ALL NEW HUGE MASTER BATH W/HIS & HER WALK-IN CLOSETS, UPGRADES, BEVELED MIRRORS~WINDOWS, 30 YR DIMENSIONAL ROOF ALL NEW IN 2005 ~LARGE LEVEL LOT ~PRIVACY FENCED BACKYARD ~OVERSIZED GARAGE ~WELCOME HOME!"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"EAT-IN KITCHEN~CUSTOM CABINETRY~NEW TILE FLOORING~STAINLESS STOVE, MICROWAVE AND DISHWASHER"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"DINING ROOM WITH NEW LIGHTING FIXTURE AND WOOD FLOORS"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"TOTALLY RENOVATED HOME~NEW HARDWOOD FLOORING~30 YEAR ROOF, WINDOWS ALL NEW IN 2005~OPEN SPACIOUS LIVING AREAS"
+        },
+        {
+            "file":"den.jpg",
+            "caption":"FAMILY ROOM WITH GAS FIREPLACE"
+        },
+        {
+            "file":"hallbath1.jpg",
+            "caption":"ALL NEW HALL BATH"
+        },
+        {
+            "file":"hallbath2.jpg",
+            "caption":"BEVELVED MIRRORS~ NEW LIGHTING AND FIXTURES"
+        },
+        {
+            "file":"mbath1.jpg",
+            "caption":"REDESIGNED MASTER SUITE WITH ALL NEW HUGE UPGRADED BATH"
+        },
+        {
+            "file":"mbath2.jpg",
+            "caption":"HIS/HER WALK-IN CLOSETS~BEVELVED MIRRORS~NEW TILE FLOORS"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"22 X 40 IN-GROUND POOL IN BACK YARD~NEW LINER IN 2005"
+        }
+    ]
+  }

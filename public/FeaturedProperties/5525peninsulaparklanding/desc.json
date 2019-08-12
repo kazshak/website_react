@@ -1,0 +1,49 @@
+{
+    "address":"5525 PENINSULA PARK LANDING",
+    "frontImage":"frontview.jpg",
+    "price":244900,
+    "sqft":2734,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2010-02-07",
+    "listDate":"2009-09-04",
+    "sold":true,
+    "salesPrice":233000,
+    "yearBuilt":1996,
+    "lotSize":0.16,
+    "flyer":"5525peninsulaparklanding_buyerfulll.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"EXCEPTIONAL FLOOR PLAN IN QUIET NEIGHBORHOOD~WALK TO LAKE~CONVENIENT TO I-40~WELL MAINTAINED W/MANY UPGRADES & UPDATES~NEW HARDWOOD FLOORING~PREMIUM LIGHT FIXTURES~NEWER HVAC~2 JACUZZI TUBS~LOFT~GREAT STORAGE~PRIVACY FENCED BACKYARD~HOME WARRANTY PROVIDED~GRAND ENTRY~YOU WILL APPRECIATE THE OUT OF THE ORDINARY CHARACTER AND FLOOR PLAN OF THIS HOME~NO THRU TRAFFIC ON THIS STREET~LOT BACKS UP TO CORP PROPERTY"
+        },
+        {
+            "file":"sideview.jpg",
+            "caption":"NO THRU TRAFFIC ON THIS STREET~PRIVATE BACK YARD~LOT BACKS UP TO CORP PROPERTY"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"GREAT ROOM WITH VAULTED CEILING IS OPEN TO DINING ROOM AND UPSTAIRS LOFT/OFFICE~COMFORT COMBINED WITH ELEGANCE"
+        },
+        {
+            "file":"diningrm.jpg",
+            "caption":"DINING ROOM WITH TREY CEILING"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"SPACIOUS OPEN KITCHEN"
+        },
+        {
+            "file":"kitchen2.jpg",
+            "caption":"BREAKFAST ROOM/EAT-IN KITCHEN"
+        },
+        {
+            "file":"foyer.jpg",
+            "caption":"BEAUTIFUL TWO STORY FOYER"
+        },
+        {
+            "file":"lakepic.jpg",
+            "caption":"SHORT WALK TO THE LAKE~IT'S TIME TO GO FISHING"
+        }
+    ]
+  }

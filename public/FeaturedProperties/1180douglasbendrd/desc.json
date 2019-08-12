@@ -1,0 +1,57 @@
+{
+    "address":"1180 DOUGLAS BEND RD",
+    "frontImage":"frontview.jpg",
+    "price":409900,
+    "sqft":3000,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2008-09-15",
+    "listDate":"2008-06-17",
+    "sold":true,
+    "salesPrice":410000,
+    "yearBuilt":2006,
+    "lotSize":1.06,
+    "flyer":"1180 Douglas Bend Rd flyer.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"EXQUISITE CUSTOM BUILT HOME W/VIEW OF LAKE~3 BEDROOMS ON THE MAIN LEVEL~SOARING CEILINGS~COFFERED CEILING IN DR~CUSTOM CABINETRY~GOURMET ISLAND KITCHEN W/GRANITE & STAINLESS APPLIANCES~BRAZILIAN CHERRY FLOORING~EXTENSIVE WOODWORK & MOLDINGS THROUGHOUT"
+        },
+        {
+            "file":"lakeview.jpg",
+            "caption":"VIEW OF LAKE FROM FRONT OF HOME"
+        },
+        {
+            "file":"foyer.jpg",
+            "caption":"GRAND FOYER WITH MAGNIFICENT CUSTOM MADE DOOR FROM BRAZIL"
+        },
+        {
+            "file":"kitchen2.jpg",
+            "caption":"GOURMET ISLAND KITCHEN W/GRANITE & STAINLESS APPLIANCES~CUSTOM CABINETRY~VERY SPACIOUS"
+        },
+        {
+            "file":"diningrm.jpg",
+            "caption":"DINING ROOM"
+        },
+        {
+            "file":"coffered.jpg",
+            "caption":"COFFERED CEILING IN DINING ROOM~UPGRADED LIGHT FIXTURES THROUGHOUT"
+        },
+        {
+            "file":"livingrm.jpg",
+            "caption":"LARGE FAMILY ROOM THAT OPENS TO KITCHEN~ FIREPLACE~FLAT SCREEN TV IN LIVING ROOM REMAINS WITH HOME"
+        },
+        {
+            "file":"masterbdrm.jpg",
+            "caption":"MASTER BEDROOM~TREY CEILING WITH ROPE LIGHTING"
+        },
+        {
+            "file":"masterbth.jpg",
+            "caption":"MASTER SUITE BATH"
+        },
+        {
+            "file":"backporch.jpg",
+            "caption":"COVERED BACK PORCH~CIRCULAR PATIO W/NATURAL STONE FIRE PIT"
+        }
+    ]
+  }

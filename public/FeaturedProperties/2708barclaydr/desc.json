@@ -1,0 +1,58 @@
+{
+    "address":"2708 Barclay Dr",
+    "frontImage":"frontview.jpg",
+    "price":210000,
+    "sqft":1918,
+    "beds":3,
+    "baths":2,
+    "closedDate":"2009-08-14",
+    "listDate":"2009-06-23",
+    "sold":true,
+    "salesPrice":197500,
+    "yearBuilt":1964,
+    "lotSize":0.27,
+    "flyer":"buyerfullreport_2708barclaydr.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"EXCEPTIONAL RENOVATED LG KITCHEN W/NEW CUSTOM CABINETRY, COUNTERTOPS, LIGHTING, FAUX STAINLESS APPLIANCES~ALL NEW BATH~BEAUTIFUL WOOD FLOORING THROUGHOUT~NEW COVERED PATIO~ATTACHED WORKSHOP/STORAGE W/ ELECTRICTY~STEPS TO SHELBY BOTTOMS GREENWAY~NEAR ROSEPEPPER, PORTLAND BREW COFFEE~GREAT LG BACKYARD~OVERSIZED TWO CARPORT~NEW HVAC 12/2008~SAME OWNER SINCE 1969~WELL MAINTAINED HOME"
+        },
+        {
+            "file":"Image00001.jpg",
+            "caption":"EXCEPTIONAL RENOVATED LG KITCHEN"
+        },
+        {
+            "file":"Image00002.jpg",
+            "caption":"NEW CUSTOM CABINETRY, COUNTERTOPS, LIGHTING, FAUX STAINLESS APPLIANCES"
+        },
+        {
+            "file":"Image00009.jpg",
+            "caption":"COVERED FRONT PORCH"
+        },
+        {
+            "file":"Image00003.jpg",
+            "caption":"EAT-IN AREA IN THE KITCHEN IS APPROX 12 X 7"
+        },
+        {
+            "file":"Image00004.jpg",
+            "caption":"FORMAL LIVING IS SPACIOUS WITH NATURAL LIGHT~THERE IS ALSO A DEN THAT IS OPEN TO THE KITCHEN WITH NEW BAMBO FLOORING."
+        },
+        {
+            "file":"Image00006.jpg",
+            "caption":"ALL NEW BATH WITH TILE FLOORING ON MAIN LEVEL"
+        },
+        {
+            "file":"Image00013.jpg",
+            "caption":"OVERSIZED CARPORT WITH EXTENDED PARKING~LARGE BACK YARD"
+        },
+        {
+            "file":"Image00012.jpg",
+            "caption":"SIDE YARD"
+        },
+        {
+            "file":"Image00010.jpg",
+            "caption":"ALL NEW COVERED PATIO~WORKSHOP/STORAGE WITH CABINETRY AND ELECTRICTY IS JUST OFF THE PATIO"
+        }
+        
+    ]
+  }

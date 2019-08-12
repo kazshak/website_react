@@ -1,0 +1,21 @@
+{
+    "address":"3721 AUBURN LN",
+    "frontImage":"frontview.jpg",
+    "price":469500,
+    "sqft":1906,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2007-11-29",
+    "listDate":"2007-09-26",
+    "sold":true,
+    "salesPrice":465900,
+    "yearBuilt":1980,
+    "lotSize":0,
+    "flyer":"",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":""
+        }
+    ]
+  }

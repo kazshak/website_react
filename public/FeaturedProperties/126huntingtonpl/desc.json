@@ -1,0 +1,57 @@
+{
+    "address":"126 HUNTINGTON PL",
+    "frontImage":"frontview.jpg",
+    "price":239900,
+    "sqft":2632,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2009-05-22",
+    "listDate":"2009-04-21",
+    "sold":true,
+    "salesPrice":234900,
+    "yearBuilt":1998,
+    "lotSize":0,
+    "flyer":"126huntingtonplace_buyerfullreport.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"<strong style='font-size:12px'>SELLER MOTIVATED!!</strong> MUCH BETTER THAN NEW~UPDATED & READY TO MOVE IN~HOME HAS BEEN VERY WELL MAINTAINED & IS VERY CLEAN~SPACIOUS EAT-IN KITCHEN W/TILE FLOOR, TILE BACK SPLASH, LOTS OF CABINETS & PANTRY~OFFICE WITH FRENCH DOORS~CUSTOM PAINT~TILE FLS IN BATHS"
+        },
+        {
+            "file":"familyroom.jpg",
+            "caption":"FAMILY ROOM W/FRENCH DOOR LEADING TO THE OFFICE~ GAS FIREPLACE~ACCESS TO DECK FROM FAMILY ROOM"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"SPACIOUS EAT-IN KITCHEN W/TILE FLOOR, TILE BACK SPLASH, LOTS OF CABINETS & PANTRY~BREAKFAST BAR"
+        },
+        {
+            "file":"kitchen2.jpg",
+            "caption":"LARGE EAT-IN AREA KITCHEN WITH ACCESS TO DECK"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"FORMAL DINING ROOM WITH CHAIR RAIL AND CROWN MOLDING"
+        },
+        {
+            "file":"office.jpg",
+            "caption":"LIGHT AND BRIGHT OFFICE OR LIVING ROOM~FRENCH DOORS FROM THE FOYER AND FAMILY ROOM"
+        },
+        {
+            "file":"masterbdrm.jpg",
+            "caption":"VERY LARGE MASTER BEDROOM WITH BEAUTIFUL CUSTOM FAUX PAINTED TREY CEILING~SETTING AREA ~EXTRA LARGE WALK-IN CLOSET~SUITE"
+        },
+        {
+            "file":"masterbath.jpg",
+            "caption":"MASTER BEDROOM BATH WITH NEW TILE FLOORING~SEPARATE GARDEN TUB AND SHOWER~VERY CLEAN"
+        },
+        {
+            "file":"bonus.jpg",
+            "caption":"BONUS ROOM ABOVE OVERSIZED GARAGE~ THIS ROOM IS VERY LARGE WITH SPACE FOR EXERCISE EQUIPMENT AND A STUDY AREA"
+        },
+        {
+            "file":"deck.jpg",
+            "caption":"WONDERFUL AND SPACIOUS DECK~RECENTLY STAINED~HUGE BACKYARD~YOU REALLY MUST SEE THIS HOUSE! THIS IS THE ONE!"
+        }
+    ]
+  }

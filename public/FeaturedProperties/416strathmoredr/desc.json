@@ -1,0 +1,53 @@
+{
+    "address": "416 STRATHMORE DR",
+    "frontImage": "frontview.jpg",
+    "price": 289900,
+    "sqft": 2819,
+    "beds": 4,
+    "baths": 2.5,
+    "closedDate": "2009-01-20",
+    "listDate": "2008-10-22",
+    "sold": true,
+    "salesPrice": 290000,
+    "yearBuilt": 2003,
+    "lotSize": 0,
+    "flyer":"",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"SHORT SALE SUBJECT TO LENDER'S APPROVAL~ AS IS~BEST CUL-DE-SAC LOT, SPACIOUS, OPEN~LG ISLAND KITCHEN W/PLANNING DESK & PANTRY~BREAKFAST ROOM~OPEN TO FAMILY RM~FORMAL LIVING RM/OFFICE & GREAT BONUS RM~WOOD & TILE FLOORING~ LARGE MBR WITH TREY CEILING"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"ISLAND KITCHEN W/PANTRY AND PLANNING DESK~OPEN TO FAMILY ROOM"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"DINING ROOM"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"FORMAL LIVING ROOM / OFFICE"
+        },
+        {
+            "file":"foyer.jpg",
+            "caption":"GRAND FOYER PERFECT TO GREET YOUR GUEST"
+        },
+        {
+            "file":"breakfastroom.jpg",
+            "caption":"BREAKFAST ROOM "
+        },
+        {
+            "file":"mastersuite.jpg",
+            "caption":"MASTER SUITE"
+        },
+        {
+            "file":"bedroom2.jpg",
+            "caption":"LARGEST GUEST BEDROOM"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"ENJOY THE OUTSIDE LIVING AREA~COVERED PORCH~PATIO~ LARGE LEVEL BACKYARD"
+        }
+    ]
+}

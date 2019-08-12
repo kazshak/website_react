@@ -1,0 +1,57 @@
+{
+    "address":"141 HUNTINGTON PL",
+    "frontImage":"frontview.jpg",
+    "price":246900,
+    "sqft":2458,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2007-10-26",
+    "listDate":"2007-08-11",
+    "sold":true,
+    "salesPrice":249000,
+    "yearBuilt":1999,
+    "lotSize":0,
+    "flyer":"141 Huntington Place flyer.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":">NEW TILE IN MASTER BATH AND POWDER ROOM~NEW CARPET~WOOD FLOORING~SPACIOUS KITCHEN OPEN TO FAMILY ROOM WITH FIREPLACE~MASTER SUITE WITH TREY CEILING, GARDEN TUB SEPARATE SHOWER~ EX LARGE BACKYARD W/PRIVACY FENCE"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"EAT IN KITCHEN HAS A LARGE SPACE FOR A TABLE~PANTRY~LOTS OF CABINETS"
+        },
+        {
+            "file":"bonusroom.jpg",
+            "caption":"VERY LARGE BONUS ROOM~NEW CARPET"
+        },
+        {
+            "file":"familyroom.jpg",
+            "caption":"FAMILY ROOM WITH GAS FIREPLACE IS OPEN TO KITCHEN~THERE IS A FORMAL LIVING ROOM ALSO"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"DINNING ROOM WITH WOOD FLOORING"
+        },
+        {
+            "file":"guestbath.jpg",
+            "caption":"UPSTAIRS HALL AND GUEST BATH~NEW CARPET"
+        },
+        {
+            "file":"master.jpg",
+            "caption":"MASTER BEDROOM WITH TREY CEILING~WOOD FLOORING~LARGE WALKIN CLOSET"
+        },
+        {
+            "file":"masterbath.jpg",
+            "caption":"MASTER BATH WITH DOUBLE VANITY~WATER CLOSET~NEW TILE FLOOR"
+        },
+        {
+            "file":"powderroom.jpg",
+            "caption":"NEW TILE IN POWDER ROOM"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"EXTRA, EXTRA LARGE BACKYARD WITH PRIVACY FENCE"
+        }
+    ]
+  }

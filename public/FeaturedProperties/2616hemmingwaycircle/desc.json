@@ -1,0 +1,49 @@
+{
+    "address":"2616 HEMMINGWAY CIR",
+    "frontImage":"frontview.jpg",
+    "price":219900,
+    "sqft":1702,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2008-08-15",
+    "listDate":"2008-06-06",
+    "sold":true,
+    "salesPrice":212000,
+    "yearBuilt":1992,
+    "lotSize":0,
+    "flyer":"buyerfullrpt.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"GORGEOUS RENOVATION! MANY UPGRADES!~GRANITE COUNTERTOPS~STAINLESS STEEL APPL~NEW HARDWOOD FLOORING/TILE/CARPET~ALL NEW FIXTURES~NEW ROOF~NEW HARDI-PLANK SIDING~2 STORY FOYER W/VAULTED CEILINGS~BEAUTIFULLY LANDSCAPED HUGE FENCED YARD W/LG COVERED DECK!"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"BEAUTIFUL GRANITE COUNTERTOPS! KITCHEN OPENS OUT TO A LARGE COVERED DECK! PERFECT LAY-OUT FOR ENTERTAINING"
+        },
+        {
+            "file":"kitchen3.jpg",
+            "caption":"PLENTY OF CABINETS AND COUNTERSPACE"
+        },
+        {
+            "file":"livingrm.jpg",
+            "caption":"VAULTED CEILINGS IN THE GREAT ROOM"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"NEW CROWN MOLDING AND WAINSCOTTING IN THIS FABULOUS DININGROOM"
+        },
+        {
+            "file":"masterbath.jpg",
+            "caption":"ELEGANT MASTER SUITE--GARDEN TUB, TILE AND NEW FIXTURES! EX-LG WALK-IN CLOSET WITH BUILT-INS!"
+        },
+        {
+            "file":"garage.jpg",
+            "caption":"TWO CAR ATTACHED GARAGE!"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"HUGE BACKYARD--GREAT FOR YOUR KIDS, OR YOUR DOGS!"
+        }
+    ]
+  }

@@ -1,0 +1,49 @@
+{
+    "address":"1887 LONEY DR",
+    "frontImage":"frontview.jpg",
+    "price":119900,
+    "sqft":1100,
+    "beds":2,
+    "baths":1,
+    "closedDate":"2008-10-22",
+    "listDate":"2008-07-16",
+    "sold":true,
+    "salesPrice":122000,
+    "yearBuilt":1950,
+    "lotSize":0.5,
+    "flyer":"1887loneydr_Buyerfullrpt.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"VERY CLEAN, STARTER HOME IN WELL ESTABLISHED NEIGHBORHOOD~NEW HVAC UNIT (4 MOS)~NEW ENERGY EFFICIENT TILT IN WINDOWS~ NEW WATER HEATER~NEW STOVE~NEW OUTSIDE ELECTRICAL W/NEW METER~FRESH PAINT~UPDATED BATH W/TILE & PEDESTAL~1/2 ACRE FENCED YARD!"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"NOTICE THE BEAUTIFUL HARDWOOD FLOORS, AND THE STAINED GLASS IN THE FRONT DOOR!"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"UPDATED KITCHEN WITH NICE CABINETS AND NEW STOVE!"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"THE DINING AREA HAS A BIG PICTURE WIINDOW AND A PASS THRU TO THE KITCHEN"
+        },
+        {
+            "file":"bedroom2.jpg",
+            "caption":"EACH OF THE BEDROOMS HAS NEW CARPETING (VERY NICE HARDWOODS UNDERNEATH) AND CEILING FANS"
+        },
+        {
+            "file":"bathroom.jpg",
+            "caption":"THE BATHROOM HAS A NEW PEDESTAL SINK, NEW TILE FLOORING AND A LARGE LINEN CLOSET!"
+        },
+        {
+            "file":"den.jpg",
+            "caption":"THE DEN HAS A SEPARATE ENTRANCE AND COULD EASILY BE CONVERTED TO A MASTER SUITE. THE SELLER USED THE ATTACHED 11 X 7 LAUNDRY ROOM AS A WALK-IN CLOSET!"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"WHAT A GREAT BACKYARD FOR THE KIDS/PETS! FULLY FENCED WITH A CARPORT AND A STORAGE SHED"
+        }
+    ]
+  }

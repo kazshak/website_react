@@ -1,0 +1,16 @@
+{
+    "address": "100 Windmill Point Circle",
+    "frontImage": "frontview.jpg",
+    "price": 498900,
+    "sqft": 3983,
+    "beds": 4,
+    "baths": 3.5,
+    "closedDate": "",
+    "listDate": "",
+    "sold": false,
+    "salesPrice": 0,
+    "yearBuilt": 0,
+    "lotSize": 0,
+    "flyer":"",
+    "pics":[]
+}

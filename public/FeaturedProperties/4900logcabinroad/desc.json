@@ -1,0 +1,57 @@
+{
+    "address":"4900 LOG CABIN RD",
+    "frontImage":"FrontView.jpg",
+    "price":168900,
+    "sqft":1455,
+    "beds":3,
+    "baths":2,
+    "closedDate":"2007-05-24",
+    "listDate":"2007-03-25",
+    "sold":true,
+    "salesPrice":160000,
+    "yearBuilt":1950,
+    "lotSize":0.22,
+    "flyer":"4900 LOG CABIN FLYER.pdf",
+    "pics":[
+        {
+            "file":"FrontView.jpg",
+            "caption":"BEAUTIFULLY RENOVATED HOME~UPDATED BATHS~DEN COULD BE MBR SUITE WITH FULL BATH~NEW TILE IN KITCHEN,BATHS &amp; DEN~DETACHED WORK SHOP~MANY UPGRADES!"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"Living Room"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"Dining Roon"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"Updated Kitchen"
+        },
+        {
+            "file":"den_master.jpg",
+            "caption":"Den Or Cozy Master Suite"
+        },
+        {
+            "file":"den_builtin.jpg",
+            "caption":"Beautiful Built-ins In Den / Master Bedroom Suite"
+        },
+        {
+            "file":"den_bath.jpg",
+            "caption":"Updated Full Bath Attached To Den / Master"
+        },
+        {
+            "file":"middle_bath.jpg",
+            "caption":"Gorgeous Full Bath With Pedestal Sink And Designer Fixtures"
+        },
+        {
+            "file":"workshop.jpg",
+            "caption":"Detached Workshop With Electricity"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"Large Backyard"
+        }
+    ]
+  }

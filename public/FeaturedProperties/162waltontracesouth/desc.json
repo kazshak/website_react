@@ -1,0 +1,57 @@
+{
+    "address":"162 WALTON TRCE S",
+    "frontImage":"frontview.jpg",
+    "price":234460,
+    "sqft":2468,
+    "beds":3,
+    "baths":2.5,
+    "closedDate":"2007-07-19",
+    "listDate":"2007-03-03",
+    "sold":true,
+    "salesPrice":229500,
+    "yearBuilt":2004,
+    "lotSize":0,
+    "flyer":"162 Walton Trace Flyer.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"BETTER THAN BRAND NEW!! SPACIOUS OPEN KITCHEN W/ BREAKFAST AREA~UPGRADED CHERRY CABINETRY~BEAUTIFUL LIKE NEW APPLIANCES REMAIN~UPPER MASTER RETREAT~LARGE RMS~BONUS ROOM OVER GARAGE~WOOD BLINDS THROUGHOUT~PATIO~PRIVACY FENCED BACKYARD~READY TO MOVE IN!"
+        },
+        {
+            "file":"den.jpg",
+            "caption":"Living Room / Den with fireplace - Open to Kitchen"
+        },
+        {
+            "file":"diningroom.jpg",
+            "caption":"Beautiful large dining room - wood blinds throughout home"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"Spacious open Kitchen with upgraded cabinetry - like new appliances remain"
+        },
+        {
+            "file":"guestbath.jpg",
+            "caption":"Guest Bath"
+        },
+        {
+            "file":"bonusroom2.jpg",
+            "caption":"Bonus Room over garage"
+        },
+        {
+            "file":"bonusroom.jpg",
+            "caption":"Bonus Room"
+        },
+        {
+            "file":"masterbath.jpg",
+            "caption":"Master Bedroom retreat with large bath and large walk-in closet"
+        },
+        {
+            "file":"laundryroom.jpg",
+            "caption":"Large Laundry Room"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"Backyard with patio and privacy fence"
+        }
+    ]
+  }

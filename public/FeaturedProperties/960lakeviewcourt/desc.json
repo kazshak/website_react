@@ -1,0 +1,49 @@
+{
+    "address":"960 LAKEVIEW COURT",
+    "frontImage":"960lakeviewcourt_main.jpg",
+    "price":194500,
+    "sqft":2351,
+    "beds":3,
+    "baths":3,
+    "closedDate":"2006-12-01",
+    "listDate":"2006-09-09",
+    "sold":true,
+    "salesPrice":193000,
+    "yearBuilt":1998,
+    "lotSize":0,
+    "flyer":"960Lakeview_Flyer.pdf",
+    "pics":[
+        {
+            "file":"960lakeviewcourt_main.jpg",
+            "caption":"CUL-DE-SAC...FINISHED BASEMENT W/FULL BATH...10FT CEILINGS &amp;FP.. ARCH DR...HW IN ENTRY,DR,KIT.. HUGE BACK YARD FULLY FENCED...MBATH W/SEP TUB SHOWER LARGE WI CLOSET... OVERSIZED GARAGE W/WORKAREA...3 MIN TO LAUNCH BOAT &amp; PARK/PICNIC AREA"
+        },
+        {
+            "file":"entryliving.jpg",
+            "caption":"Entry & Living Room"
+        },
+        {
+            "file":"dining.jpg",
+            "caption":"Dining Roon"
+        },
+        {
+            "file":"office.jpg",
+            "caption":"Office Nook"
+        },
+        {
+            "file":"recroom.jpg",
+            "caption":"Spacious Rec Room"
+        },
+        {
+            "file":"patio.jpg",
+            "caption":"Walk out to patio from Rec Room"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"Large Back Yard"
+        },
+        {
+            "file":"lake.jpg",
+            "caption":"Walk to the Lake and Rec Area"
+        }
+    ]
+  }

@@ -1,0 +1,57 @@
+{
+    "address":"215 LONE OAK DR",
+    "frontImage":"frontview.jpg",
+    "price":192900,
+    "sqft":2145,
+    "beds":3,
+    "baths":3,
+    "closedDate":"2008-04-18",
+    "listDate":"2008-01-04",
+    "sold":true,
+    "salesPrice":187000,
+    "yearBuilt":1993,
+    "lotSize":0,
+    "flyer":"215_LONE_OAK_DRIVE_FLYER192900.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"SPACIOUS EAT-IN KITCHEN W/CHERRY FINISHED CABINETS~LOTS OF CROWN MOLDING~ALL NEW WINDOWS~NEW HARDWOOD FLOORING~AMAZING UPSTAIRS 48 X 13 FINISHED ROOM W/FULL BATH THAT COULD BE TWO BEDROOMS OR BONUS ROOM & BEDROOM/OFFICE~ABOVE GROUND POOL W/GREAT DECKING"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"SPACIOUS EAT-IN KITCHEN W/CHERRY FINISHED CABINETS"
+        },
+        {
+            "file":"breakfast.jpg",
+            "caption":"EAT-IN KITCHEN WITH PANTRY"
+        },
+        {
+            "file":"livingroom.jpg",
+            "caption":"LARGE LIVING ROOM WITH GAS FIREPLACE~HARD WOOD FLOORING"
+        },
+        {
+            "file":"livingroom2.jpg",
+            "caption":"DESK AREA IN LIVING ROOM"
+        },
+        {
+            "file":"bedroom2.jpg",
+            "caption":"BEDROOM"
+        },
+        {
+            "file":"bedroom3.jpg",
+            "caption":"BEDROOM"
+        },
+        {
+            "file":"bonus1.jpg",
+            "caption":"PORTION ON THE 48 X 13 UPSTAIRS ROOM~MANY POSSIBILITIES"
+        },
+        {
+            "file":"bonus2.jpg",
+            "caption":"ANOTHER PORTION OF THE UPSTAIRS 48 X13 AREA~UPSTAIRS HAS A FULL BATH"
+        },
+        {
+            "file":"backyard.jpg",
+            "caption":"NEWER ABOVE GROUND POOL WITH FANTASTIC DECKING AND COVERED AREA~PATIO~ LARGE LEVEL BACKYARD"
+        }
+    ]
+  }

@@ -1,0 +1,57 @@
+{
+    "address":"4921 LOG CABIN RD",
+    "frontImage":"frontview.jpg",
+    "price":149900,
+    "sqft":1455,
+    "beds":3,
+    "baths":2,
+    "closedDate":"2009-03-31",
+    "listDate":"2009-02-12",
+    "sold":true,
+    "salesPrice":149900,
+    "yearBuilt":1962,
+    "lotSize":0.48,
+    "flyer":"4921logcabinrd_agentfullreport.pdf",
+    "pics":[
+        {
+            "file":"frontview.jpg",
+            "caption":"A TRUE ARTIST'S RETREAT! THIS GORGEOUS, UNIQUE HOME SITS BACK OFF STREET ON 1/2 ACRE IN A GREAT AREA!~HARDWOOD FLOORS~WOOD BURNING FIREPLACE~ORIGINAL VANITY/TILE IN MASTER BATH~SPLIT LEVEL FLOOR PLAN~COOL ORIGINAL MAHOGANY WALL COVERINGS & BUILT-INS!  VERY WELL MAINTAINED AND MOVE IN READY! BRAND NEW HEAT PUMP~SELLER REPLACED PRIVACY FENCE IN '05~2 CAR CARPORT~DECK~COVERED FRONT PORCH~BASEMENT GARAGE W/ TONS OF EXTRA SPACE! CONVENIENT LOCATION"
+        },
+        {
+            "file":"masterbed.jpg",
+            "caption":"GORGEOUS MASTER BEDROOM W/EXPOSED BRICK ON ONE WALL~ATTACHED ORIGINAL HOLLYWOOD STYLE BATH"
+        },
+        {
+            "file":"livingrm.jpg",
+            "caption":"BEAUTIFUL HARDWOODS AND A WOOD BURNING FIREPLACE!"
+        },
+        {
+            "file":"livingrm2.jpg",
+            "caption":"VIEW OF LIVING ROOM"
+        },
+        {
+            "file":"kitchen.jpg",
+            "caption":"THE KITCHEN IS OPEN AND AIRY AND IS THE HEART OF THIS HOME! ALL APPLIANCES REMAIN!"
+        },
+        {
+            "file":"bathrm1.jpg",
+            "caption":"PERSONAL DRESSING AREA WITH VANITY OFF THE MASTER BATH!"
+        },
+        {
+            "file":"bathrm2.jpg",
+            "caption":"MASTER BATH~TILE FLOOR IS HEATED~ALL OF THE ORIGINAL TILE IS IN EXCELLENT CONDITION"
+        },
+        {
+            "file":"bedrm2.jpg",
+            "caption":"LARGE GUEST BEDROOM WITH DOUBLE CLOSETS"
+        },
+        {
+            "file":"storeage.jpg",
+            "caption":"OUTSIDE STORAGE BUILDING IN BACKYARD"
+        },
+        {
+            "file":"deck.jpg",
+            "caption":"AMAZING PROPERTY~ HUGE FRONT AND BACKYARD~EXTRA LARGE TURN AROUND DRIVE~DOUBLE CAR CARPORT~BASEMENT~GARAGE"
+        }
+    ]
+  }
